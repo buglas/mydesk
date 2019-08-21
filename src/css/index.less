@@ -1,0 +1,53 @@
+@media only screen and (max-width: 768px) {
+  p{
+    font-size: 14px;
+    margin: 9px 0;
+    line-height: 24px;
+  }
+}
+
+body{
+  margin: 0;
+  color: #2e271c;
+}
+h3{
+  margin: 9px 0;
+}
+p{
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+  color: #642d25;
+}
+a:hover{
+  color: #8a1500;
+}
+#bac{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/lotus.jpg');
+  background-size: cover;
+  background-position: bottom right;
+  opacity: 0;
+  transition: opacity 1500ms;
+  z-index: 0;
+}
+#world{
+  display: flex;
+  width: 100%;
+  background-color: #d0a77a;
+  overflow: auto;
+}
+
+#cont{
+  position: absolute;
+  padding: 0 9px 9px 9px;
+  margin: 32px;
+  z-index: 1;
+  background-color: rgba(228, 205, 180, 0.5);
+  border: 40px solid transparent;
+  border-image: url("../images/win.png") 33% round;
+}
+
